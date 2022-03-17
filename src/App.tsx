@@ -19,9 +19,9 @@ export interface GradientInterface {
 const App: React.FC = () => {
 
 const [gradientSettings, setGradientSettings] = useState<GradientInterface>({
-  color1: "#ffffff",
-  color2: '#ffffff',
-  color3: '#ffffff',
+  color1: "#f99999",
+  color2: '#f55555',
+  color3: '#f11111',
   break1: 0,
   break2: 50,
   break3: 100,

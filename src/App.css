@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.gradient {
+margin-top: 5rem;
+  height: 30vh;
+  width: 100%;
+}

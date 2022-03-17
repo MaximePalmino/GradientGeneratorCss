@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-import { isPropertySignature } from "typescript"
 import { GradientInterface } from "../App";
 
 
@@ -31,4 +29,4 @@ const Card:  React.FC<CardProps> = ({color, setGradientSettings, id}) => {
     )
 }
 
-export default Card
+export default Card;

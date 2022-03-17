@@ -1,6 +1,5 @@
 import { GradientInterface } from "../App";
-import Card from "./card"
-
+import Card from './Card'
 
   
 interface CardProps {

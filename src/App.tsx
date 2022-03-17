@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
-import Cards from './components/cards';
-import Gradient from './components/gradient';
+import Cards from './components/Cards';
+import Gradient from './components/Gradient';
 import Rotation from './components/Rotation';
 
 

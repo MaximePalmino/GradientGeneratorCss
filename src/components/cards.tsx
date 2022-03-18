@@ -11,11 +11,11 @@ interface CardProps {
 const Cards: React.FC<CardProps> = ({gradientSettings, setGradientSettings}) => {
 
     return (
-        <>
+        <div className="cards__container">
             <Card color={gradientSettings.color1}  setGradientSettings={setGradientSettings} id={1}/>
             <Card color={gradientSettings.color2}  setGradientSettings={setGradientSettings} id={2}/>
             <Card color={gradientSettings.color3}  setGradientSettings={setGradientSettings} id={3}/>
-        </>
+        </div>
     )
 }
 

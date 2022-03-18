@@ -13,6 +13,7 @@ const Card:  React.FC<CardProps> = ({color, setGradientSettings, id}) => {
 
     const colorHandler = (e:any) => {
         const name = `color${id}`
+        console.log(e.target.value)
         setGradientSettings((prev: GradientInterface) => ({...prev, [name]: e.target.value}))
     }
     const breakpointHandler = (e:any) => {
@@ -21,11 +22,12 @@ const Card:  React.FC<CardProps> = ({color, setGradientSettings, id}) => {
     }
 
     return (
-        <>
-            <h2>{color}</h2>
+        <div className="card__container">
+            {/* <h2>{color}</h2> */}
             <input onChange={colorHandler} type="color" value={color}></input>
+            <h2>Breakpoint</h2>
             <input onChange={breakpointHandler} type="range"></input>
-        </>
+        </div>
     )
 }
 

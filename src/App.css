@@ -18,4 +18,22 @@
 margin-top: 5rem;
   height: 50vh;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.cards__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.card__container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
 }

@@ -14,6 +14,7 @@ const Rotation: React.FC<Rotation> = ({setGradientSettings}) => {
 
     return(
         <>
+        <h2>Rotation</h2>
             <input onChange={rotationHandler} type="range"></input>
         </>
     )

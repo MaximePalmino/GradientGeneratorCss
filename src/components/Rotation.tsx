@@ -12,11 +12,14 @@ const Rotation: React.FC<Rotation> = ({setGradientSettings}) => {
         setGradientSettings((prev: GradientInterface) =>({...prev, rotation: e.target.value  }))
     }
 
+  
     return(
-        <>
+        <div className="rotation__container">
+        <div className="range-slider">
         <h2>Rotation</h2>
-            <input onChange={rotationHandler} type="range"></input>
-        </>
+            <input className="range-slider__range rotation__slider"  onChange={rotationHandler} type="range" min="0" max="360"></input>
+            </div>
+        </div>
     )
 
 

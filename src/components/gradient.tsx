@@ -17,12 +17,12 @@ const Gradient: React.FC<GradientProps> = ({gradientSettings}) => {
     },)
 
     return (
-        <>
+        <div className="gradient__container">
             <div className="gradient" style={{background: `linear-gradient(${gradientSettings.rotation}deg, ${gradientSettings.color1} 
                 ${gradientSettings.break1}%, ${gradientSettings.color2} ${gradientSettings.break2}%, ${gradientSettings.color3} ${gradientSettings.break3}%`}}>          
                 <p>{style}</p>
             </div>
-        </> 
+        </div> 
     )
 }
 

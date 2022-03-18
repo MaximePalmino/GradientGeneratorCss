@@ -32,7 +32,7 @@ const [gradientSettings, setGradientSettings] = useState<GradientInterface>({
   return (
     <div className="App">
       <Cards  gradientSettings={gradientSettings} setGradientSettings={setGradientSettings} />
-      <Rotation setGradientSettings={setGradientSettings}   />
+      <Rotation gradientSettings={gradientSettings} setGradientSettings={setGradientSettings}   />
       <Gradient gradientSettings={gradientSettings} />
     </div> 
   );
